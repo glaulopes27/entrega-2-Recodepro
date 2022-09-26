@@ -29,7 +29,7 @@ CREATE TABLE `compra` (
   KEY `id_cliente_idx` (`id_cliente`),
   CONSTRAINT `id_cliente` FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id_cliente`)
 );
-CREATE TABLE `itns_compra` (
+CREATE TABLE `itens_compra` (
   `id_itens_compra` int NOT NULL,
   `qde_itens` int NOT NULL,
   `valor_itens` double NOT NULL,
